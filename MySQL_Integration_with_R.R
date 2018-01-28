@@ -10,6 +10,9 @@ library(dbConnect)
 # password   => user password        # dbname     => DataBase name
 con <- dbConnect(MySQL(),user="user_name", password="user_password",dbname="database_name", host="localhost")
 
+# disconnect the connection
+on.exit(dbDisconnect(con))
+
 # shows list of tables in database
 dbListTables(con)
 
