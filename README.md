@@ -1,3 +1,3 @@
-# Integration of R with SQL
-# Simple ChatBot
-# Twitter Sentiment Analysis
+# MySQL Integration with R 
+# Simple ChatBot in Python
+# Twitter Sentiment Analysis in Python
